@@ -1,0 +1,173 @@
+// //src/config/environmentConfig.js
+// export const environmentConfig = [
+//    {
+//     id: "zooenterence",
+//     name: "Zoo Entrance",
+//     model: "/assets/zooenterence.glb",
+//     position: [6, 2.5, 31.5],
+//     rotation: [0, -Math.PI / 0.5, 0],
+//     scale: [2,2,2],
+//   },
+//   {
+//     id: "barrier",
+//     name: "Barrier",
+//     model: "/assets/barrier.glb",
+//     position: [-20, 2.5, 31],
+//     rotation: [0, -Math.PI / 0.5, 0],
+//     scale: [4.5,3,2],
+//   },
+//   {
+//     id: "barrier1",
+//     name: "Barrier1",
+//     model: "/assets/barrier1.glb",
+//     position: [32, 2.5, 31],
+//     rotation: [0, -Math.PI / 0.5, 0],
+//     scale: [4.5,3,2],
+//   },
+//   {
+//     id: "barrier2",
+//     name: "Barrier2",
+//     model: "/assets/barrier2.glb",
+//     position: [-30, 2.5, 13],
+//     rotation: [0, -Math.PI / 2, 0],
+//     scale: [7,3,2],
+//   },
+//   {
+//     id: "barrier4",
+//     name: "Barrier4",
+//     model: "/assets/barrier4.glb",
+//     position: [-30, 2.5, -22],
+//     rotation: [0, -Math.PI / 2, 0],
+//     scale: [7,3,2],
+//   },
+//   {
+//     id: "barrier5",
+//     name: "Barrier5",
+//     model: "/assets/barrier5.glb",
+//     position: [-12, 2.5, -40.5],
+//     rotation: [0, -Math.PI / 1, 0],
+//     scale: [7,3,2],
+//   },
+//   {
+//     id: "barrier7",
+//     name: "Barrier7",
+//     model: "/assets/barrier7.glb",
+//     position: [24, 2.5, -40.5],
+//     rotation: [0, -Math.PI / 1, 0],
+//     scale: [7,3,2],
+//   },
+//   {
+//     id: "barrier8",
+//     name: "Barrier8",
+//     model: "/assets/barrier8.glb",
+//     position: [42, 2.5, -25],
+//     rotation: [0, -Math.PI / 2, 0],
+//     scale: [7,3,2],
+//   },
+//   {
+//     id: "barrier9",
+//     name: "Barrier9",
+//     model: "/assets/barrier9.glb",
+//     position: [42, 2.5, 12],
+//     rotation: [0, -Math.PI / 2, 0],
+//     scale: [7.5,3,2],
+//   },
+// ];
+
+export const environmentConfig = [
+  {
+    id: "zooenterence",
+    name: "Zoo Entrance",
+    model: "/assets/entrance.glb",
+    position: [6, 6, 31.5],
+    rotation: [0, 0, 0],
+    scale: [3, 3, 3],
+  },
+  {
+    id: "fountain",
+    name: "Fountain",
+    model: "/assets/fountain.glb",
+    position: [5, -0.5, 2],
+    rotation: [0, 0, 0],
+    scale: 1.5,
+  },
+  {
+    id: "rhinobg",
+    name: "Rhinobg",
+    model: "/assets/rhinobg.glb",
+    position: [-20, 2.5, 31],
+    rotation: [0, Math.PI, 0],
+    scale: 0.5,
+  },
+  {
+    id: "barrier",
+    name: "Barrier",
+    model: "/assets/barrier.glb",
+    position: [-20, 2.5, 31],
+    rotation: [0, Math.PI, 0],
+    scale: [4.5, 3, 2],
+  },
+
+  {
+    id: "barrier1",
+    name: "Barrier1",
+    model: "/assets/barrier1.glb",
+    position: [32, 2.5, 31],
+    rotation: [0, Math.PI, 0],
+    scale: [4.5, 3, 2],
+  },
+
+  {
+    id: "barrier2",
+    name: "Barrier2",
+    model: "/assets/barrier2.glb",
+    position: [-30, 2.5, 13],
+    rotation: [0, -Math.PI / 2, 0],
+    scale: [7, 3, 2],
+  },
+
+  {
+    id: "barrier4",
+    name: "Barrier4",
+    model: "/assets/barrier4.glb",
+    position: [-30, 2.5, -22],
+    rotation: [0, -Math.PI / 2, 0],
+    scale: [7, 3, 2],
+  },
+
+  {
+    id: "barrier5",
+    name: "Barrier5",
+    model: "/assets/barrier5.glb",
+    position: [-12, 2.5, -40.5],
+    rotation: [0, Math.PI, 0],
+    scale: [7, 3, 2],
+  },
+
+  {
+    id: "barrier7",
+    name: "Barrier7",
+    model: "/assets/barrier7.glb",
+    position: [24, 2.5, -40.5],
+    rotation: [0, Math.PI, 0],
+    scale: [7, 3, 2],
+  },
+
+  {
+    id: "barrier8",
+    name: "Barrier8",
+    model: "/assets/barrier8.glb",
+    position: [42, 2.5, -25],
+    rotation: [0, -Math.PI / 2, 0],
+    scale: [7, 3, 2],
+  },
+
+  {
+    id: "barrier9",
+    name: "Barrier9",
+    model: "/assets/barrier9.glb",
+    position: [42, 2.5, 12],
+    rotation: [0, -Math.PI / 2, 0],
+    scale: [7.5, 3, 2],
+  },
+];

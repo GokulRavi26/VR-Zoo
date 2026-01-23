@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* 🔥 Animated background layer */
+body::before {
+  content: "";
+  position: fixed;
+  inset: -20px;
+  background-image: url("/assets/sky1.jpg");
+  background-size: cover;
+  background-position: center;
+  /* animation: kenBurns 25s ease-in-out infinite alternate; */
+  z-index: -2;
+}
+
+/* 🌫 Dark overlay for readability */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(157, 152, 225, 0.35);
+  z-index: -1;
+}
+
+/* 🎥 Ken Burns animation */
+@keyframes kenBurns {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  50% {
+    transform: scale(1.08) translate(-2%, -2%);
+  }
+  100% {
+    transform: scale(1.12) translate(2%, 2%);
+  }
+}
