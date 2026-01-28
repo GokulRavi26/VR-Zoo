@@ -13,9 +13,9 @@ export const animals = [
       en: "/assets/lion.mp3",
       ta: "/assets/lion.mp3",
     },
-    position: [-20, 1.5, 23],
+    position: [-20, 2, 23],
     rotation: [0, Math.PI / 2, 0],
-    scale: 3.5,
+    scale: 5,
 
     description: {
       en: "The jaguar is a powerful predator known for its strength.",
@@ -268,7 +268,7 @@ export const animals = [
     model: "/assets/hippo.glb",
     image: "/assets/hippo.jpg",
     sound: { en: "/assets/lion.mp3", ta: "/assets/lion.mp3" },
-    position: [30, 2.5, 12],
+    position: [30, 3, 12],
     rotation: [0, -Math.PI / 4, 0],
     scale: 1,
 
@@ -346,9 +346,9 @@ export const animals = [
     model: "/assets/hyena.glb",
     image: "/assets/hyena.jpg",
     sound: { en: "/assets/lion.mp3", ta: "/assets/lion.mp3" },
-    position: [25, 1.7, -32],
+    position: [25, 2, -32],
     rotation: [0, -Math.PI / 4, 0],
-    scale: 1,
+    scale: 1.3,
 
     description: {
       en: "Hyenas are known for their laughing sounds.",
@@ -424,9 +424,9 @@ export const animals = [
     model: "/assets/blackpanther.glb",
     image: "/assets/blackpanther.jpg",
     sound: { en: "/assets/lion.mp3", ta: "/assets/lion.mp3" },
-    position: [-20, 1.5, -30],
+    position: [-20, 2, -30],
     rotation: [0, Math.PI / 4, 0],
-    scale: 3.5,
+    scale: 4.5,
 
     description: {
       en: "Black panthers are stealthy and powerful predators.",
@@ -572,6 +572,9 @@ export const animals = [
       ],
     },
   },
+
+//  ================= BIRD =================
+
   {
     id: "bird",
     name: { en: "Bird", ta: "பறவை" },
@@ -580,7 +583,7 @@ export const animals = [
     sound: { en: "/assets/lion.mp3", ta: "/assets/lion.mp3" },
 
     position: [-20, 2, -10],
-    rotation: [0, -Math.PI / 4, 0],
+    rotation: [0, -Math.PI / 0.5, 0],
     scale: 0.1,
 
     description: {
@@ -657,9 +660,9 @@ export const animals = [
     image: "/assets/snake.jpg",
     sound: { en: "/assets/lion.mp3", ta: "/assets/lion.mp3" },
 
-    position: [33, 5, -20],
-    rotation: [0, -Math.PI / 4, 0],
-    scale: 0.5,
+    position: [33, 0.1, -20],
+    rotation: [0, -Math.PI /1, 0],
+    scale: 0.06,
 
     description: {
       en: "Snakes are legless reptiles that crawl on the ground.",
