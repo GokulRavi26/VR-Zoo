@@ -106,7 +106,7 @@ export const animals = [
       en: "/assets/lion.mp3",
       ta: "/assets/lion.mp3",
     },
-    position: [-20, 4.5, 10],
+    position: [-22, 4.5, 6],
     rotation: [0, -Math.PI / 9, 0],
     scale: 0.1,
 
@@ -188,7 +188,7 @@ export const animals = [
       en: "/assets/lion.mp3",
       ta: "/assets/lion.mp3",
     },
-    position: [35, 1.7, -8],
+    position: [33, 1.7, 10],
     rotation: [0, Math.PI, 0],
     scale: 5,
 
@@ -268,7 +268,7 @@ export const animals = [
     model: "/assets/hippo.glb",
     image: "/assets/hippo.jpg",
     sound: { en: "/assets/lion.mp3", ta: "/assets/lion.mp3" },
-    position: [30, 3, 12],
+    position: [34, 3, 22],
     rotation: [0, -Math.PI / 4, 0],
     scale: 1,
 
@@ -346,7 +346,7 @@ export const animals = [
     model: "/assets/hyena.glb",
     image: "/assets/hyena.jpg",
     sound: { en: "/assets/lion.mp3", ta: "/assets/lion.mp3" },
-    position: [25, 2, -32],
+    position: [35, 2, -3],
     rotation: [0, -Math.PI / 4, 0],
     scale: 1.3,
 
@@ -498,7 +498,7 @@ export const animals = [
   /* ================= ZEBRA ================= */
   {
     id: "zebra",
-    name: { en: "Zebra", ta: "செப்ரா" },
+    name: { en: "Zebra", ta: "வரிக்குதிரை" },
     model: "/assets/zebra.glb",
     image: "/assets/zebra.jpg",
     sound: { en: "/assets/lion.mp3", ta: "/assets/lion.mp3" },
@@ -508,7 +508,7 @@ export const animals = [
 
     description: {
       en: "Zebras are known for black and white stripes.",
-      ta: "செப்ராக்கள் கருப்பு மற்றும் வெள்ளை கோடுகளுக்காக அறியப்படுகின்றன.",
+      ta: "வரிக்குதிரைக்கள் கருப்பு மற்றும் வெள்ளை கோடுகளுக்காக அறியப்படுகின்றன.",
     },
 
     facts: {
@@ -546,25 +546,25 @@ export const animals = [
       ],
       ta: [
         {
-          question: "செப்ரா என்ன உண்ணும்?",
+          question: "வரிக்குதிரை என்ன உண்ணும்?",
           options: ["புல்", "இறைச்சி", "மீன்", "பழங்கள்"],
           answer: "புல்",
-          explanation: "செப்ராக்கள் புல் உண்ணும்.",
+          explanation: "வரிக்குதிரைக்கள் புல் உண்ணும்.",
         },
         {
-          question: "செப்ராவின் சிறப்பு என்ன?",
+          question: "வரிக்குதிரைவின் சிறப்பு என்ன?",
           options: ["கோடுகள்", "புள்ளிகள்", "கொம்புகள்", "இறக்கைகள்"],
           answer: "கோடுகள்",
           explanation: "அவைகளுக்கு கோடுகள் உள்ளன.",
         },
         {
-          question: "செப்ரா எங்கு வாழ்கிறது?",
+          question: "வரிக்குதிரை எங்கு வாழ்கிறது?",
           options: ["புல்வெளிகள்", "கடல்", "பனி", "காடு"],
           answer: "புல்வெளிகள்",
           explanation: "அவை புல்வெளிகளில் வாழ்கின்றன.",
         },
         {
-          question: "செப்ரா தாவர உண்ணியா?",
+          question: "வரிக்குதிரை தாவர உண்ணியா?",
           options: ["ஆம்", "இல்லை"],
           answer: "ஆம்",
           explanation: "அவை தாவரங்களை உண்ணும்.",
@@ -572,8 +572,103 @@ export const animals = [
       ],
     },
   },
+  /* ================= LEVIATHAN ================= */
+  {
+    id: "leviathan",
+    name: {
+      en: "Leviathan",
+      ta: "லெவியாதான்"
+    },
 
-//  ================= BIRD =================
+    model: "/assets/leviathan.glb",
+    image: "/assets/leviathan.jpg",
+    sound: {
+      en: "/assets/sea_roar.mp3",
+      ta: "/assets/sea_roar.mp3"
+    },
+
+    position: [35, 3.7, -35],
+    rotation: [0, Math.PI / 1, 0],
+    scale: 0.5,
+
+    description: {
+      en: "Leviathan is a legendary sea monster said to rule the deep oceans.",
+      ta: "லெவியாதான் என்பது ஆழ்கடல்களை ஆளும் ஒரு புராண கடல் அரக்கன்."
+    },
+
+    facts: {
+      diet: {
+        en: "Carnivore",
+        ta: "மாமிச உண்ணி"
+      },
+      habitat: {
+        en: "Deep Ocean",
+        ta: "ஆழ்கடல்"
+      },
+      lifespan: {
+        en: "300+ years",
+        ta: "300+ ஆண்டுகள்"
+      },
+    },
+
+    quiz: {
+      en: [
+        {
+          question: "What type of creature is Leviathan?",
+          options: ["Sea Monster", "Bird", "Land Animal", "Insect"],
+          answer: "Sea Monster",
+          explanation: "Leviathan is a legendary sea monster."
+        },
+        {
+          question: "Where does Leviathan live?",
+          options: ["Deep Ocean", "Forest", "Desert", "Sky"],
+          answer: "Deep Ocean",
+          explanation: "It is said to live in the deep ocean."
+        },
+        {
+          question: "Is Leviathan real?",
+          options: ["Mythical", "Real"],
+          answer: "Mythical",
+          explanation: "Leviathan exists only in legends."
+        },
+        {
+          question: "What does Leviathan eat?",
+          options: ["Meat", "Grass"],
+          answer: "Meat",
+          explanation: "Leviathan is described as a carnivore."
+        },
+      ],
+
+      ta: [
+        {
+          question: "லெவியாதான் எவ்வகை உயிரினம்?",
+          options: ["கடல் அரக்கன்", "பறவை", "நில உயிரி", "பூச்சி"],
+          answer: "கடல் அரக்கன்",
+          explanation: "லெவியாதான் ஒரு புராண கடல் அரக்கன்."
+        },
+        {
+          question: "லெவியாதான் எங்கு வாழ்கிறது?",
+          options: ["ஆழ்கடல்", "காடு", "பாலைவனம்", "வானம்"],
+          answer: "ஆழ்கடல்",
+          explanation: "அது ஆழ்கடலில் வாழ்கிறது."
+        },
+        {
+          question: "லெவியாதான் உண்மையா?",
+          options: ["புராணம்", "உண்மை"],
+          answer: "புராணம்",
+          explanation: "லெவியாதான் புராணங்களில் மட்டுமே உள்ளது."
+        },
+        {
+          question: "லெவியாதான் என்ன உண்ணும்?",
+          options: ["மாமிசம்", "புல்"],
+          answer: "மாமிசம்",
+          explanation: "அது மாமிச உண்ணி."
+        },
+      ],
+    },
+  },
+
+  //  ================= BIRD =================
 
   {
     id: "bird",
@@ -660,8 +755,8 @@ export const animals = [
     image: "/assets/snake.jpg",
     sound: { en: "/assets/lion.mp3", ta: "/assets/lion.mp3" },
 
-    position: [33, 0.1, -20],
-    rotation: [0, -Math.PI /1, 0],
+    position: [33, 0.1, -16],
+    rotation: [0, -Math.PI / 1, 0],
     scale: 0.06,
 
     description: {
@@ -672,7 +767,7 @@ export const animals = [
     facts: {
       diet: { en: "Carnivore", ta: "மாமிச உண்ணி" },
       habitat: { en: "Forests & deserts", ta: "காடுகள் மற்றும் பாலைவனங்கள்" },
-      lifespan: { en: "15–30 years", ta: "15–30 ஆண்டுகள்" },
+      lifespan: { en: "10–15 years", ta: "10–15  ஆண்டுகள்" },
     },
 
     quiz: {
