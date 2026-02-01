@@ -18,10 +18,13 @@ export default function Animal({
 
   // Center model
   useEffect(() => {
-    const box = new THREE.Box3().setFromObject(scene);
-    const center = box.getCenter(new THREE.Vector3());
-    scene.position.sub(center);
-  }, [scene]);
+  const box = new THREE.Box3().setFromObject(scene);
+  const minY = box.min.y;
+
+  // Move model so feet touch ground (Y = 0)
+  scene.position.y -= minY;
+}, [scene]);
+
 
   // Play first animation safely
   useEffect(() => {
@@ -47,5 +50,3 @@ export default function Animal({
     </group>
   );
 }
-
-

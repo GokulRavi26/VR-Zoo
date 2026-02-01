@@ -13,7 +13,7 @@ export const animals = [
       en: "/assets/lion.mp3",
       ta: "/assets/lion.mp3",
     },
-    position: [-20, 2, 23],
+    position: [-20, 0, 23],
     rotation: [0, Math.PI / 2, 0],
     scale: 5,
 
@@ -106,7 +106,7 @@ export const animals = [
       en: "/assets/lion.mp3",
       ta: "/assets/lion.mp3",
     },
-    position: [-22, 4.5, 6],
+    position: [-22, 0, 6],
     rotation: [0, -Math.PI / 9, 0],
     scale: 0.1,
 
@@ -188,7 +188,7 @@ export const animals = [
       en: "/assets/lion.mp3",
       ta: "/assets/lion.mp3",
     },
-    position: [33, 1.7, 10],
+    position: [33, 0, 10],
     rotation: [0, Math.PI, 0],
     scale: 5,
 
@@ -268,7 +268,7 @@ export const animals = [
     model: "/assets/hippo.glb",
     image: "/assets/hippo.jpg",
     sound: { en: "/assets/lion.mp3", ta: "/assets/lion.mp3" },
-    position: [34, 3, 22],
+    position: [34, 0, 22],
     rotation: [0, -Math.PI / 4, 0],
     scale: 1,
 
@@ -346,7 +346,7 @@ export const animals = [
     model: "/assets/hyena.glb",
     image: "/assets/hyena.jpg",
     sound: { en: "/assets/lion.mp3", ta: "/assets/lion.mp3" },
-    position: [35, 2, -3],
+    position: [35, 0, -3],
     rotation: [0, -Math.PI / 4, 0],
     scale: 1.3,
 
@@ -424,7 +424,7 @@ export const animals = [
     model: "/assets/blackpanther.glb",
     image: "/assets/blackpanther.jpg",
     sound: { en: "/assets/lion.mp3", ta: "/assets/lion.mp3" },
-    position: [-20, 2, -30],
+    position: [-20, 0, -30],
     rotation: [0, Math.PI / 4, 0],
     scale: 4.5,
 
@@ -502,7 +502,7 @@ export const animals = [
     model: "/assets/zebra.glb",
     image: "/assets/zebra.jpg",
     sound: { en: "/assets/lion.mp3", ta: "/assets/lion.mp3" },
-    position: [-5, 2.4, -30],
+    position: [-5, 0, -30],
     rotation: [0, 0, 0],
     scale: 1,
 
@@ -587,7 +587,7 @@ export const animals = [
       ta: "/assets/sea_roar.mp3"
     },
 
-    position: [35, 3.7, -35],
+    position: [30, 0, -30],
     rotation: [0, Math.PI / 1, 0],
     scale: 0.5,
 
@@ -677,7 +677,7 @@ export const animals = [
     image: "/assets/bird.jpg",
     sound: { en: "/assets/lion.mp3", ta: "/assets/lion.mp3" },
 
-    position: [-20, 2, -10],
+    position: [-20, 0.3, -10],
     rotation: [0, -Math.PI / 0.5, 0],
     scale: 0.1,
 
@@ -832,7 +832,7 @@ export const animals = [
     image: "/assets/rhino.jpg",
     sound: { en: "/assets/lion.mp3", ta: "/assets/lion.mp3" },
 
-    position: [10, 1.7, -32],
+    position: [10, 0, -32],
     rotation: [0, -Math.PI / 19, 0],
     scale: 1.5,
 

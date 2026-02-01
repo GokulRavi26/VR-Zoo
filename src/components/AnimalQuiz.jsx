@@ -137,6 +137,9 @@
 //   },
 // };
 
+
+
+//src/components/AnimalQuiz.jsx
 import { useState } from "react";
 
 export default function AnimalQuiz({ quiz = {}, lang = "en" }) {
