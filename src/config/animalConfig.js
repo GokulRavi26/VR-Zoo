@@ -5,13 +5,13 @@ export const animals = [
     id: "jaguar",
     name: {
       en: "Jaguar",
-      ta: "ஜாகுவார்",
+      ta: "சிறுத்தைப்புலி ",
     },
     model: "/assets/jaguar.glb",
     image: "/assets/jaguar.jpg",
     sound: {
-      en: "/assets/lion.mp3",
-      ta: "/assets/lion.mp3",
+      en: "/assets/jaguar.mp3",
+      ta: "/assets/jaguar.mp3",
     },
     position: [-20, 0, 23],
     rotation: [0, Math.PI / 2, 0],
@@ -19,7 +19,7 @@ export const animals = [
 
     description: {
       en: "The jaguar is a powerful predator known for its strength.",
-      ta: "ஜாகுவார் அதன் வலிமைக்காக அறியப்படும் சக்திவாய்ந்த வேட்டையாடி.",
+      ta: "சிறுத்தைப்புலி  அதன் வலிமைக்காக அறியப்படும் சக்திவாய்ந்த வேட்டையாடி.",
     },
 
     facts: {
@@ -63,22 +63,22 @@ export const animals = [
       ],
       ta: [
         {
-          question: "ஜாகுவார் என்ன உணவு உண்ணும்?",
+          question: "சிறுத்தைப்புலி  என்ன உணவு உண்ணும்?",
           options: ["புல்", "இறைச்சி", "இலைகள்", "பழங்கள்"],
           answer: "இறைச்சி",
-          explanation: "ஜாகுவார்கள் வேட்டையாடி இறைச்சி உண்ணும்.",
+          explanation: "சிறுத்தைப்புலி கள் வேட்டையாடி இறைச்சி உண்ணும்.",
         },
         {
-          question: "ஜாகுவார்கள் எங்கு வாழ்கின்றன?",
+          question: "சிறுத்தைப்புலி கள் எங்கு வாழ்கின்றன?",
           options: ["மழைக்காடுகள்", "பாலைவனங்கள்", "கடல்கள்", "பனி பகுதி"],
           answer: "மழைக்காடுகள்",
-          explanation: "ஜாகுவார்கள் பெரும்பாலும் மழைக்காடுகளில் வாழ்கின்றன.",
+          explanation: "சிறுத்தைப்புலி கள் பெரும்பாலும் மழைக்காடுகளில் வாழ்கின்றன.",
         },
         {
-          question: "ஜாகுவார் எந்த வகை விலங்கு?",
+          question: "சிறுத்தைப்புலி  எந்த வகை விலங்கு?",
           options: ["தாவர உண்ணி", "மாமிச உண்ணி", "எல்லாம் உண்ணி", "பூச்சி உண்ணி"],
           answer: "மாமிச உண்ணி",
-          explanation: "ஜாகுவார்கள் இறைச்சி மட்டும் உண்ணும்.",
+          explanation: "சிறுத்தைப்புலி கள் இறைச்சி மட்டும் உண்ணும்.",
         },
         {
           question: "ஜாகுவாரின் சிறப்பு என்ன?",
@@ -89,7 +89,7 @@ export const animals = [
             "புல் உண்ணும்"
           ],
           answer: "நன்றாக நீந்தும்",
-          explanation: "ஜாகுவார்கள் நல்ல நீந்துபவர்கள்.",
+          explanation: "சிறுத்தைப்புலி கள் நல்ல நீந்துபவர்கள்.",
         },
       ],
     }
@@ -103,8 +103,8 @@ export const animals = [
     model: "/assets/elephant.glb",
     image: "/assets/elephant.jpg",
     sound: {
-      en: "/assets/lion.mp3",
-      ta: "/assets/lion.mp3",
+      en: "/assets/elephant.mp3",
+      ta: "/assets/elephant.mp3",
     },
     position: [-22, 0, 6],
     rotation: [0, -Math.PI / 9, 0],
@@ -251,7 +251,7 @@ export const animals = [
         },
         {
           question: "‘காட்டின் அரசன்’ என அழைக்கப்படும் விலங்கு எது?",
-          options: ["யானை", "சிங்கம்", "புலி", "ஜாகுவார்"],
+          options: ["யானை", "சிங்கம்", "புலி", "சிறுத்தைப்புலி "],
           answer: "சிங்கம்",
           explanation: "சிங்கம் காட்டின் அரசன் என அழைக்கப்படுகிறது.",
         },
@@ -267,7 +267,7 @@ export const animals = [
     name: { en: "Hippopotamus", ta: "நீர்யானை" },
     model: "/assets/hippo.glb",
     image: "/assets/hippo.jpg",
-    sound: { en: "/assets/lion.mp3", ta: "/assets/lion.mp3" },
+    sound: { en: "/assets/hippo.mp3", ta: "/assets/hippo.mp3" },
     position: [34, 0, 22],
     rotation: [0, -Math.PI / 4, 0],
     scale: 1,
@@ -345,7 +345,7 @@ export const animals = [
     name: { en: "Hyena", ta: "கழுதைப்புலி" },
     model: "/assets/hyena.glb",
     image: "/assets/hyena.jpg",
-    sound: { en: "/assets/lion.mp3", ta: "/assets/lion.mp3" },
+    sound: { en: "/assets/hyena.mp3", ta: "/assets/hyena.mp3" },
     position: [35, 0, -3],
     rotation: [0, -Math.PI / 4, 0],
     scale: 1.3,
@@ -501,7 +501,7 @@ export const animals = [
     name: { en: "Zebra", ta: "வரிக்குதிரை" },
     model: "/assets/zebra.glb",
     image: "/assets/zebra.jpg",
-    sound: { en: "/assets/lion.mp3", ta: "/assets/lion.mp3" },
+    sound: { en: "/assets/zebra.mp3", ta: "/assets/zebra.mp3" },
     position: [-5, 0, -30],
     rotation: [0, 0, 0],
     scale: 1,
@@ -583,8 +583,8 @@ export const animals = [
     model: "/assets/leviathan.glb",
     image: "/assets/leviathan.jpg",
     sound: {
-      en: "/assets/sea_roar.mp3",
-      ta: "/assets/sea_roar.mp3"
+      en: "/assets/leviathan.mp3",
+      ta: "/assets/leviathan.mp3"
     },
 
     position: [30, 0, -30],
@@ -675,7 +675,7 @@ export const animals = [
     name: { en: "Bird", ta: "பறவை" },
     model: "/assets/bird.glb",
     image: "/assets/bird.jpg",
-    sound: { en: "/assets/lion.mp3", ta: "/assets/lion.mp3" },
+    sound: { en: "/assets/bird.mp3", ta: "/assets/bird.mp3" },
 
     position: [-20, 0.3, -10],
     rotation: [0, -Math.PI / 0.5, 0],
@@ -753,7 +753,7 @@ export const animals = [
     name: { en: "Snake", ta: "பாம்பு" },
     model: "/assets/snake.glb",
     image: "/assets/snake.jpg",
-    sound: { en: "/assets/lion.mp3", ta: "/assets/lion.mp3" },
+    sound: { en: "/assets/snake.mp3", ta: "/assets/snake.mp3" },
 
     position: [33, 0.1, -16],
     rotation: [0, -Math.PI / 1, 0],

@@ -33,7 +33,6 @@ environmentConfig.forEach(e => {
   return (
     <div style={styles.container}>
       <Canvas
-        key={location.pathname} // 🔥 FORCE CLEAN REMOUNT ON BACK NAVIGATION
         camera={{ position: [10, 8, 14], fov: 50 }}
         style={styles.canvas}
       >
