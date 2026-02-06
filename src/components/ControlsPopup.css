@@ -1,0 +1,47 @@
+.controls-toast {
+  position: fixed;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(20, 20, 20, 0.92);
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 10px;
+  min-width: 320px;
+  font-size: 13px;
+  z-index: 9999;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.6);
+  animation: slideDown 0.35s ease-out;
+}
+
+.controls-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.controls-header button {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.controls-body p {
+  margin: 2px 0;
+  opacity: 0.9;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -15px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}

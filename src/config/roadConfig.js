@@ -1,7 +1,7 @@
 export const roadConfig = [
   {
     id: 1,
-    texture: "/assets/road.png",
+    texture: "./assets/road.png",
     position: [6, 0, 57.5],
     rotation: [-Math.PI / 2, 0, 0],
     size: [75, 50],
@@ -9,7 +9,7 @@ export const roadConfig = [
   },
   {
     id: 2,
-    texture: "/assets/road.png",
+    texture: "./assets/road.png",
     position: [-12, 0.1, 1],
     rotation: [-Math.PI / 2, 0, 1.55],
     size: [46, 4],
@@ -17,7 +17,7 @@ export const roadConfig = [
   },
   {
     id: 3,
-    texture: "/assets/road.png",
+    texture: "./assets/road.png",
     position: [7, 0.1, -20],
     rotation: [-Math.PI / 2, 0, 0],
     size: [38, 4],
@@ -25,7 +25,7 @@ export const roadConfig = [
   },
   {
     id: 4,
-    texture: "/assets/road.png",
+    texture: "./assets/road.png",
     position: [6, 0.1, 22],
     rotation: [-Math.PI / 2, 0, 0],
     size: [38, 4],
@@ -33,7 +33,7 @@ export const roadConfig = [
   },
   {
     id: 5,
-    texture: "/assets/road.png",
+    texture: "./assets/road.png",
     position: [23.5, 0.1, 1],
     rotation: [-Math.PI / 2, 0, 1.55],
     size: [46, 4],
@@ -41,7 +41,7 @@ export const roadConfig = [
   },
   {
     id: 7,
-    texture: "/assets/road.png",
+    texture: "./assets/road.png",
     position: [-69, 0, 5.5],
     rotation: [-Math.PI / 2, 0, 0],
     size: [75, 154],
@@ -49,7 +49,7 @@ export const roadConfig = [
   },
   {
     id: 7,
-    texture: "/assets/road.png",
+    texture: "./assets/road.png",
     position: [81, 0, 5.5],
     rotation: [-Math.PI / 2, 0, 0],
     size: [75, 154],
@@ -57,7 +57,7 @@ export const roadConfig = [
   },
   {
     id: 8,
-    texture: "/assets/road.png",
+    texture: "./assets/road.png",
     position: [6, 0, -57],
     rotation: [-Math.PI / 2, 0, 0],
     size: [75, 29],
@@ -65,7 +65,7 @@ export const roadConfig = [
   },
 //   {
 //     id: 6,
-//     texture: "/assets/road.png",
+//     texture: "./assets/road.png",
 //     position: [-12, 0.1, -8.5],
 //     rotation: [-Math.PI / 2, 0, 1.55],
 //     size: [38, 2],

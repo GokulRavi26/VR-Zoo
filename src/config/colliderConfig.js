@@ -1,0 +1,88 @@
+//src/config/colliderConfig.js
+export const colliderConfig = [
+  {
+    id: "wall1",
+    position: [5, 2.5, -22],
+    rotation: [0, 0, 0],
+    size: [75, 15, 1],
+    visible: false,
+  },
+  {
+    id: "wall2",
+    position: [5, 2.5, -42],
+    rotation: [0, 0, 0],
+    size: [175, 15, 2],
+    visible: false,
+  },
+  {
+    id: "wall3",
+    position: [5, 2.5, 72],
+    rotation: [0, 0, 0],
+    size: [175, 15, 2],
+    visible: false,
+  },
+  {
+    id: "wall4",
+    position: [5, 2.5, 2],
+    rotation: [0, 0, 0],
+    size: [14, 15, 16],
+    visible: false,
+  },
+  {
+    id: "wall5",
+    position: [27, 2.5, 31],
+    rotation: [0, 0, 0],
+    size: [30, 15, 3],
+    visible: false,
+  },
+  {
+    id: "wall6",
+    position: [-15, 2.5, 31],
+    rotation: [0, 0, 0],
+    size: [32, 15, 3],
+    visible: false,
+  },
+  // ==============Horizontal wall=================
+  {
+    id: "wall7",
+    position: [-15, 2.5, -8],
+    rotation: [0, Math.PI / 2, 0],
+    size: [75, 15, 1.5],
+    visible: false,
+  },
+  {
+    id: "wall8",
+    position: [-30, 2.5, -8],
+    rotation: [0, Math.PI / 2, 0],
+    size: [80, 15, 1.5],
+    visible: false,
+  },
+  {
+    id: "wall9",
+    position: [-40, 2.5, -8],
+    rotation: [0, Math.PI / 2, 0],
+    size: [200, 15, 1.5],
+    visible: false,
+  },
+  {
+    id: "wall10",
+    position: [26, 2.5, -8],
+    rotation: [0, Math.PI / 2, 0],
+    size: [75, 15, 1.5],
+    visible: false,
+  },
+  {
+    id: "wall11",
+    position: [42, 2.5, -8],
+    rotation: [0, Math.PI / 2, 0],
+    size: [80, 15, 1.5],
+    visible: false,
+  },
+  {
+    id: "wall12",
+    position: [48, 2.5, -8],
+    rotation: [0, Math.PI / 2, 0],
+    size: [200, 15, 1.5],
+    visible: false,
+  },
+];

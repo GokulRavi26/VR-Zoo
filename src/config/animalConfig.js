@@ -7,11 +7,11 @@ export const animals = [
       en: "Jaguar",
       ta: "சிறுத்தைப்புலி ",
     },
-    model: "/assets/jaguar.glb",
-    image: "/assets/jaguar.jpg",
+    model: "./assets/jaguar.glb",
+    image: "./assets/jaguar.jpg",
     sound: {
-      en: "/assets/jaguar.mp3",
-      ta: "/assets/jaguar.mp3",
+      en: "./assets/jaguar.mp3",
+      ta: "./assets/jaguar.mp3",
     },
     position: [-20, 0, 23],
     rotation: [0, Math.PI / 2, 0],
@@ -100,13 +100,13 @@ export const animals = [
   {
     id: "elephant",
     name: { en: "Elephant", ta: "யானை" },
-    model: "/assets/elephant.glb",
-    image: "/assets/elephant.jpg",
+    model: "./assets/elephant.glb",
+    image: "./assets/elephant.jpg",
     sound: {
-      en: "/assets/elephant.mp3",
-      ta: "/assets/elephant.mp3",
+      en: "./assets/elephant.mp3",
+      ta: "./assets/elephant.mp3",
     },
-    position: [-22, 0, 6],
+    position: [-24, 0, 3],
     rotation: [0, -Math.PI / 9, 0],
     scale: 0.1,
 
@@ -182,13 +182,13 @@ export const animals = [
   {
     id: "lion",
     name: { en: "Lion", ta: "சிங்கம்" },
-    model: "/assets/lion.glb",
-    image: "/assets/lion.jpg",
+    model: "./assets/lion.glb",
+    image: "./assets/lion.jpg",
     sound: {
-      en: "/assets/lion.mp3",
-      ta: "/assets/lion.mp3",
+      en: "./assets/lion.mp3",
+      ta: "./assets/lion.mp3",
     },
-    position: [33, 0, 10],
+    position: [33, 0, 8],
     rotation: [0, Math.PI, 0],
     scale: 5,
 
@@ -265,10 +265,10 @@ export const animals = [
   {
     id: "hippo",
     name: { en: "Hippopotamus", ta: "நீர்யானை" },
-    model: "/assets/hippo.glb",
-    image: "/assets/hippo.jpg",
-    sound: { en: "/assets/hippo.mp3", ta: "/assets/hippo.mp3" },
-    position: [34, 0, 22],
+    model: "./assets/hippo.glb",
+    image: "./assets/hippo.jpg",
+    sound: { en: "./assets/hippo.mp3", ta: "./assets/hippo.mp3" },
+    position: [34, 1, -50],
     rotation: [0, -Math.PI / 4, 0],
     scale: 1,
 
@@ -338,15 +338,93 @@ export const animals = [
       ],
     },
   },
+  /* ================= MONKEY ================= */
+{
+  id: "monkey",
+  name: { en: "Monkey", ta: "குரங்கு" },
+  model: "./assets/monkey.glb",
+  image: "./assets/monkey.jpg",
+  sound: { en: "./assets/monkey.mp3", ta: "./assets/monkey.mp3" },
+  position: [28, 2, -35],
+  rotation: [0, Math.PI / 1, 0],
+  scale: 2,
+
+  description: {
+    en: "Monkeys are intelligent animals that live mostly on trees.",
+    ta: "குரங்குகள் புத்திசாலியான விலங்குகள், அவை பெரும்பாலும் மரங்களில் வாழ்கின்றன.",
+  },
+
+  facts: {
+    diet: { en: "Omnivore", ta: "சர்வ உண்ணி" },
+    habitat: { en: "Forests & trees", ta: "காடுகள் மற்றும் மரங்கள்" },
+    lifespan: { en: "20–30 years", ta: "20–30 ஆண்டுகள்" },
+  },
+
+  quiz: {
+    en: [
+      {
+        question: "Where do monkeys mostly live?",
+        options: ["Trees", "Water", "Desert", "Snow"],
+        answer: "Trees",
+        explanation: "Monkeys live mainly on trees.",
+      },
+      {
+        question: "What do monkeys eat?",
+        options: ["Fruits", "Only meat", "Only grass", "Stones"],
+        answer: "Fruits",
+        explanation: "Monkeys eat fruits and other foods.",
+      },
+      {
+        question: "Are monkeys intelligent animals?",
+        options: ["Yes", "No"],
+        answer: "Yes",
+        explanation: "Monkeys are very intelligent.",
+      },
+      {
+        question: "Can monkeys climb trees?",
+        options: ["Yes", "No"],
+        answer: "Yes",
+        explanation: "Monkeys are excellent climbers.",
+      },
+    ],
+    ta: [
+      {
+        question: "குரங்குகள் பெரும்பாலும் எங்கு வாழ்கின்றன?",
+        options: ["மரங்கள்", "தண்ணீர்", "பாலைவனம்", "பனி"],
+        answer: "மரங்கள்",
+        explanation: "குரங்குகள் பெரும்பாலும் மரங்களில் வாழ்கின்றன.",
+      },
+      {
+        question: "குரங்கு என்ன உண்ணும்?",
+        options: ["பழங்கள்", "இறைச்சி மட்டும்", "புல் மட்டும்", "கற்கள்"],
+        answer: "பழங்கள்",
+        explanation: "குரங்குகள் பழங்கள் மற்றும் பிற உணவுகளை உண்ணும்.",
+      },
+      {
+        question: "குரங்குகள் புத்திசாலியானவையா?",
+        options: ["ஆம்", "இல்லை"],
+        answer: "ஆம்",
+        explanation: "குரங்குகள் மிகவும் புத்திசாலி.",
+      },
+      {
+        question: "குரங்குகள் மரங்களில் ஏற முடியுமா?",
+        options: ["ஆம்", "இல்லை"],
+        answer: "ஆம்",
+        explanation: "அவை சிறந்த ஏற்றத்திறன் கொண்டவை.",
+      },
+    ],
+  },
+},
+
 
   /* ================= HYENA ================= */
   {
     id: "hyena",
     name: { en: "Hyena", ta: "கழுதைப்புலி" },
-    model: "/assets/hyena.glb",
-    image: "/assets/hyena.jpg",
-    sound: { en: "/assets/hyena.mp3", ta: "/assets/hyena.mp3" },
-    position: [35, 0, -3],
+    model: "./assets/hyena.glb",
+    image: "./assets/hyena.jpg",
+    sound: { en: "./assets/hyena.mp3", ta: "./assets/hyena.mp3" },
+    position: [30, 0, -6],
     rotation: [0, -Math.PI / 4, 0],
     scale: 1.3,
 
@@ -421,9 +499,9 @@ export const animals = [
   {
     id: "blackpanther",
     name: { en: "Black Panther", ta: "கருப்புப் புலி" },
-    model: "/assets/blackpanther.glb",
-    image: "/assets/blackpanther.jpg",
-    sound: { en: "/assets/lion.mp3", ta: "/assets/lion.mp3" },
+    model: "./assets/blackpanther.glb",
+    image: "./assets/blackpanther.jpg",
+    sound: { en: "./assets/lion.mp3", ta: "./assets/lion.mp3" },
     position: [-20, 0, -30],
     rotation: [0, Math.PI / 4, 0],
     scale: 4.5,
@@ -499,9 +577,9 @@ export const animals = [
   {
     id: "zebra",
     name: { en: "Zebra", ta: "வரிக்குதிரை" },
-    model: "/assets/zebra.glb",
-    image: "/assets/zebra.jpg",
-    sound: { en: "/assets/zebra.mp3", ta: "/assets/zebra.mp3" },
+    model: "./assets/zebra.glb",
+    image: "./assets/zebra.jpg",
+    sound: { en: "./assets/zebra.mp3", ta: "./assets/zebra.mp3" },
     position: [-5, 0, -30],
     rotation: [0, 0, 0],
     scale: 1,
@@ -580,14 +658,14 @@ export const animals = [
       ta: "லெவியாதான்"
     },
 
-    model: "/assets/leviathan.glb",
-    image: "/assets/leviathan.jpg",
+    model: "./assets/leviathan.glb",
+    image: "./assets/leviathan.jpg",
     sound: {
-      en: "/assets/leviathan.mp3",
-      ta: "/assets/leviathan.mp3"
+      en: "./assets/leviathan.mp3",
+      ta: "./assets/leviathan.mp3"
     },
 
-    position: [30, 0, -30],
+    position: [-20, 0, -50],
     rotation: [0, Math.PI / 1, 0],
     scale: 0.5,
 
@@ -673,9 +751,9 @@ export const animals = [
   {
     id: "bird",
     name: { en: "Bird", ta: "பறவை" },
-    model: "/assets/bird.glb",
-    image: "/assets/bird.jpg",
-    sound: { en: "/assets/bird.mp3", ta: "/assets/bird.mp3" },
+    model: "./assets/bird.glb",
+    image: "./assets/bird.jpg",
+    sound: { en: "./assets/bird.mp3", ta: "./assets/bird.mp3" },
 
     position: [-20, 0.3, -10],
     rotation: [0, -Math.PI / 0.5, 0],
@@ -751,9 +829,9 @@ export const animals = [
   {
     id: "snake",
     name: { en: "Snake", ta: "பாம்பு" },
-    model: "/assets/snake.glb",
-    image: "/assets/snake.jpg",
-    sound: { en: "/assets/snake.mp3", ta: "/assets/snake.mp3" },
+    model: "./assets/snake.glb",
+    image: "./assets/snake.jpg",
+    sound: { en: "./assets/snake.mp3", ta: "./assets/snake.mp3" },
 
     position: [33, 0.1, -16],
     rotation: [0, -Math.PI / 1, 0],
@@ -828,11 +906,11 @@ export const animals = [
   {
     id: "rhino",
     name: { en: "Rhinoceros", ta: "காண்டாமிருகம்" },
-    model: "/assets/rhino.glb",
-    image: "/assets/rhino.jpg",
-    sound: { en: "/assets/lion.mp3", ta: "/assets/lion.mp3" },
+    model: "./assets/rhino.glb",
+    image: "./assets/rhino.jpg",
+    sound: { en: "./assets/lion.mp3", ta: "./assets/lion.mp3" },
 
-    position: [10, 0, -32],
+    position: [10, 0, -28],
     rotation: [0, -Math.PI / 19, 0],
     scale: 1.5,
 

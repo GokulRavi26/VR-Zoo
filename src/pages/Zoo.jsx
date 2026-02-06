@@ -1,20 +1,21 @@
 //src/pages/Zoo.jsx
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls } from "@react-three/drei";
+// import { OrbitControls } from "@react-three/drei";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Road from "../components/Road";
 
+import Player from "../components/Player";
 import Ground from "../components/Ground";
 import Animal from "../components/Animal";
 import Habitat from "../components/Habitat";
 import Environment from "../components/Environment";
-
+import ColliderCube from "../components/Collider";
 
 import { environmentConfig } from "../config/environmentConfig";
 import { animals } from "../config/animalConfig";
 import { habitats } from "../config/habitatConfig";
-
+import { colliderConfig } from "../config/colliderConfig";
 
 export default function Zoo() {
   const location = useLocation();
@@ -33,6 +34,7 @@ environmentConfig.forEach(e => {
   return (
     <div style={styles.container}>
       <Canvas
+        key={location.pathname}
         camera={{ position: [10, 8, 14], fov: 50 }}
         style={styles.canvas}
       >
@@ -41,17 +43,23 @@ environmentConfig.forEach(e => {
         <directionalLight position={[10, 20, 10]} intensity={3} />
 
         {/* Controls */}
-        <OrbitControls
+        {/* <OrbitControls
           enableZoom
           enableRotate
           enablePan={false}
           dampingFactor={0.08}
-        />
+        /> */}
 
         {/* Ground */}
         <Ground />
         <Environment/>
         <Road />
+        {colliderConfig.map(collider => (
+            <ColliderCube key={collider.id} {...collider} />
+          ))}
+        
+        <Player/>
+
 
         {/* Habitats */}
         {habitats.map((h) => (
