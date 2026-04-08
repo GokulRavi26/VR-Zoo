@@ -13,7 +13,7 @@ export const animals = [
       en: "./assets/jaguar.mp3",
       ta: "./assets/jaguar.mp3",
     },
-    position: [-20, 0, 23],
+    position: [-20, -3, 23],
     rotation: [0, Math.PI / 2, 0],
     scale: 5,
 
@@ -268,7 +268,7 @@ export const animals = [
     model: "./assets/hippo.glb",
     image: "./assets/hippo.jpg",
     sound: { en: "./assets/hippo.mp3", ta: "./assets/hippo.mp3" },
-    position: [34, 1.9, -50],
+    position: [34, 1.5, -50],
     rotation: [0, -Math.PI / 4, 0],
     scale: 1,
 
@@ -345,7 +345,7 @@ export const animals = [
   model: "./assets/monkey.glb",
   image: "./assets/monkey.jpg",
   sound: { en: "./assets/monkey.mp3", ta: "./assets/monkey.mp3" },
-  position: [28, 2, -35],
+  position: [28, 0, -35],
   rotation: [0, Math.PI / 1, 0],
   scale: 2,
 
@@ -755,7 +755,7 @@ export const animals = [
     image: "./assets/bird.jpg",
     sound: { en: "./assets/bird.mp3", ta: "./assets/bird.mp3" },
 
-    position: [-20, -0.5, -10.5],
+    position: [-20, 0.3, -10.5],
     rotation: [0, -Math.PI / 0.5, 0],
     scale: 0.1,
 

@@ -2,7 +2,6 @@
 import { Canvas } from "@react-three/fiber";
 // import { OrbitControls } from "@react-three/drei";
 import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
 import Road from "../components/Road";
 
 import Ground from "../components/Ground";
@@ -17,9 +16,7 @@ import { animals } from "../config/animalConfig";
 import { habitats } from "../config/habitatConfig";
 import { colliderConfig } from "../config/colliderConfig";
 
-export default function Zoo() {
-  const location = useLocation();
-
+export default function Zoo({ controlsEnabled = true }) {
   useEffect(() => {
     console.log("Zoo page loaded");
   }, []);
@@ -34,9 +31,11 @@ environmentConfig.forEach(e => {
   return (
     <div style={styles.container}>
       <Canvas
-        key={location.pathname}
         camera={{ position: [10, 8, 14], fov: 50 }}
-        style={styles.canvas}
+        style={{
+          ...styles.canvas,
+          pointerEvents: controlsEnabled ? "auto" : "none",
+        }}
       >
         {/* Lights */}
         <ambientLight intensity={2} />
@@ -58,7 +57,7 @@ environmentConfig.forEach(e => {
             <ColliderCube key={collider.id} {...collider} />
           ))}
         
-        <UniversalCameraController />
+        <UniversalCameraController enabled={controlsEnabled} />
 
 
         {/* Habitats */}
@@ -77,9 +76,12 @@ environmentConfig.forEach(e => {
 
 const styles = {
   container: {
+    position: "fixed",
+    inset: 0,
     width: "100vw",
     height: "100vh",
     overflow: "hidden",
+    zIndex: 0,
   },
   canvas: {
     width: "100%",

@@ -48,7 +48,7 @@ export const roadConfig = [
     repeat: [20, 20],
   },
   {
-    id: 7,
+    id: 6,
     texture: "./assets/road.png",
     position: [81, 0, 5.5],
     rotation: [-Math.PI / 2, 0, 0],

@@ -1,9 +1,21 @@
 //src/pages/AnimalDetailsPage.jsx
 import { useParams, useNavigate } from "react-router-dom";
 import { animals } from "../config/animalConfig";
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import AnimalQuiz from "../components/AnimalQuiz";
 import { translations } from "../i18n";
+
+function resolveAssetPath(path) {
+  if (!path) {
+    return path;
+  }
+
+  if (/^(https?:)?\/\//.test(path) || path.startsWith("/")) {
+    return path;
+  }
+
+  return path.startsWith("./") ? path.slice(1) : `/${path}`;
+}
 
 export default function AnimalDetailsPage() {
   const { id } = useParams();
@@ -24,19 +36,27 @@ export default function AnimalDetailsPage() {
     <div style={styles.page}>
       {/* Language */}
       <div style={styles.lang}>
-        <button onClick={() => setLang("en")}>EN</button>
-        <button onClick={() => setLang("ta")}>TA</button>
+        <button type="button" onClick={() => setLang("en")}>EN</button>
+        <button type="button" onClick={() => setLang("ta")}>TA</button>
       </div>
 
       {/* Back */}
-      <button style={styles.back} onClick={() => navigate(-1)}>
+      <button
+        type="button"
+        style={styles.back}
+        onClick={() => navigate("/")}
+      >
         ← Back
       </button>
 
       <div style={styles.card}>
         {/* Image */}
         <div style={styles.imageBox}>
-          <img src={animal.image} style={styles.image} />
+          <img
+            src={resolveAssetPath(animal.image)}
+            alt={animal.name?.[lang] ?? animal.id}
+            style={styles.image}
+          />
         </div>
 
         {/* Info */}
@@ -56,13 +76,13 @@ export default function AnimalDetailsPage() {
             </li>
           </ul>
 
-          <button onClick={playSound}>{t.playSound}</button>
+          <button type="button" onClick={playSound}>{t.playSound}</button>
 
           <AnimalQuiz quiz={animal.quiz} lang={lang} />
         </div>
       </div>
 
-      <audio ref={audioRef} src={animal.sound?.[lang]} />
+      <audio ref={audioRef} src={resolveAssetPath(animal.sound?.[lang])} />
     </div>
   );
 }
@@ -70,6 +90,9 @@ export default function AnimalDetailsPage() {
 
 const styles = {
   page: {
+    position: "fixed",
+    inset: 0,
+    zIndex: 10,
     width: "100vw",
     height: "100vh",
     background: "linear-gradient(135deg, #1e293b, #334155)",
@@ -98,6 +121,7 @@ const styles = {
     fontWeight: 500,
     border: "none",
     cursor: "pointer",
+    touchAction: "manipulation",
     boxShadow: "0 4px 10px rgba(0,0,0,0.15)",
   },
 

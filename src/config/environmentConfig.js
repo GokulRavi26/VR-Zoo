@@ -432,4 +432,20 @@ export const environmentConfig = [
     rotation: [0, -Math.PI / 1, 0],
     scale: 5,
   },
+  {
+    id: "Bench1",
+    name: "Bench",
+    model: "./assets/bench.glb",
+    position: [13, 2, 6],
+    rotation: [0, 0, 0],
+    scale: [0.25, 0.25, 0.25],
+  },
+  {
+    id: "Bench2",
+    name: "Bench",
+    model: "./assets/bench.glb",
+    position: [-4, 2, 6],
+    rotation: [0, Math.PI/1, 0],
+    scale: [0.25, 0.25, 0.25],
+  },
 ];
