@@ -12,7 +12,7 @@ export default function ControlsPopup({ onClose }) {
         <p><b>W</b> – Forward &nbsp; <b>S</b> – Back</p>
         <p><b>A</b> – Left &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>D</b> – Right</p>
         <p><b>← / →</b> – Rotate</p>
-        <p><b>↑ / ↓</b> – Height</p>
+        <p><b>↑ / ↓</b> – Move</p>
       </div>
     </div>
   );

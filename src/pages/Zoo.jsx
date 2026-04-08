@@ -5,12 +5,12 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Road from "../components/Road";
 
-import Player from "../components/Player";
 import Ground from "../components/Ground";
 import Animal from "../components/Animal";
 import Habitat from "../components/Habitat";
 import Environment from "../components/Environment";
 import ColliderCube from "../components/Collider";
+import UniversalCameraController from "../three/UniversalCameraController";
 
 import { environmentConfig } from "../config/environmentConfig";
 import { animals } from "../config/animalConfig";
@@ -58,7 +58,7 @@ environmentConfig.forEach(e => {
             <ColliderCube key={collider.id} {...collider} />
           ))}
         
-        <Player/>
+        <UniversalCameraController />
 
 
         {/* Habitats */}

@@ -9,7 +9,7 @@ export const environmentConfig = [
     scale: [3, 3, 3],
   },
  {
-    id: "forest",
+    id: "forest2",
     name: "Forest",
     model: "/assets/forest4.glb",
     position: [-1545, 0.1, -1080],
@@ -17,7 +17,7 @@ export const environmentConfig = [
     scale: [30, 20, 20],
   },
  {
-    id: "forest",
+    id: "forest1",
     name: "Forest",
     model: "/assets/forest4.glb",
     position: [-1295, 0.1, -1080],
@@ -41,7 +41,7 @@ export const environmentConfig = [
   //   scale: 0.5,
   // },
   {
-    id: "barrier",
+    id: "barrier1",
     name: "Barrier",
     model: "./assets/barrier.glb",
     position: [-17, 2.5, 31],
@@ -50,7 +50,7 @@ export const environmentConfig = [
   },
 
   {
-    id: "barrier",
+    id: "barrier2",
     name: "Barrier",
     model: "./assets/barrier.glb",
     position: [30, 2.5, 31],
@@ -59,7 +59,7 @@ export const environmentConfig = [
   },
 
   {
-    id: "barrier",
+    id: "barrier3",
     name: "Barrier",
     model: "./assets/barrier.glb",
     position: [-30, 2.5, 13],
@@ -68,7 +68,7 @@ export const environmentConfig = [
   },
 
   {
-    id: "barrier",
+    id: "barrier4",
     name: "Barrier",
     model: "./assets/barrier.glb",
     position: [-30, 2.5, -22],
@@ -77,7 +77,7 @@ export const environmentConfig = [
   },
 
   {
-    id: "barrier",
+    id: "barrier5",
     name: "Barrier",
     model: "./assets/barrier.glb",
     position: [-12, 2.5, -40.5],
@@ -86,7 +86,7 @@ export const environmentConfig = [
   },
 
   {
-    id: "barrier",
+    id: "barrier6",
     name: "Barrier",
     model: "./assets/barrier.glb",
     position: [24, 2.5, -40.5],
@@ -95,7 +95,7 @@ export const environmentConfig = [
   },
 
   {
-    id: "barrier",
+    id: "barrier7",
     name: "Barrier",
     model: "./assets/barrier.glb",
     position: [42, 2.5, -25],
@@ -104,7 +104,7 @@ export const environmentConfig = [
   },
 
   {
-    id: "barrier",
+    id: "barrier8",
     name: "Barrier",
     model: "./assets/barrier.glb",
     position: [42, 2.5, 12],
@@ -112,7 +112,7 @@ export const environmentConfig = [
     scale: [7.5, 3, 2],
   },
   {
-    id: "gate",
+    id: "gate1",
     name: "Gate",
     model: "./assets/gate.glb",
     position: [-15, 0.1, 29.5],
@@ -120,7 +120,7 @@ export const environmentConfig = [
     scale: [80, 60, 50],
   },
   {
-    id: "gate",
+    id: "gate2",
     name: "Gate",
     model: "./assets/gate.glb",
     position: [-15, 0.1, 13],
@@ -128,7 +128,7 @@ export const environmentConfig = [
     scale: [80, 60, 50],
   },
   {
-    id: "gate",
+    id: "gate3",
     name: "Gate",
     model: "./assets/gate.glb",
     position: [-15, 0.1, -3],
@@ -136,7 +136,7 @@ export const environmentConfig = [
     scale: [95, 60, 50],
   },
   {
-    id: "gate",
+    id: "gate4",
     name: "Gate",
     model: "./assets/gate.glb",
     position: [-15, 0.1, -22],
@@ -144,7 +144,7 @@ export const environmentConfig = [
     scale: [80, 60, 50],
   },
   {
-    id: "gate",
+    id: "gate5",
     name: "Gate",
     model: "./assets/gate.glb",
     position: [1, 0.1, -22],
@@ -152,7 +152,7 @@ export const environmentConfig = [
     scale: [80, 60, 50],
   },
   {
-    id: "gate",
+    id: "gate6",
     name: "Gate",
     model: "./assets/gate.glb",
     position: [17, 0.1, -22],
@@ -160,7 +160,7 @@ export const environmentConfig = [
     scale: [45, 60, 50],
   },
   {
-    id: "gate",
+    id: "gate7",
     name: "Gate",
     model: "./assets/gate.glb",
     position: [26, 0.1, 29.5],
@@ -168,7 +168,7 @@ export const environmentConfig = [
     scale: [80, 60, 50],
   },
   {
-    id: "gate",
+    id: "gate8",
     name: "Gate",
     model: "./assets/gate.glb",
     position: [26, 0.1, 13],
@@ -176,7 +176,7 @@ export const environmentConfig = [
     scale: [80, 60, 50],
   },
   {
-    id: "gate",
+    id: "gate9",
     name: "Gate",
     model: "./assets/gate.glb",
     position: [26, 0.1, -3],
@@ -184,7 +184,7 @@ export const environmentConfig = [
     scale: [95, 60, 50],
   },
   {
-    id: "gate",
+    id: "gate10",
     name: "Gate",
     model: "./assets/gate.glb",
     position: [17, 0.1, -22],
@@ -192,7 +192,7 @@ export const environmentConfig = [
     scale: [85, 60, 50],
   },
   {
-    id: "gate",
+    id: "gate11",
     name: "Gate",
     model: "./assets/gate.glb",
     position: [1, 0.1, -22],
@@ -200,7 +200,7 @@ export const environmentConfig = [
     scale: [85, 60, 50],
   },
   {
-    id: "gate",
+    id: "gate12",
     name: "Gate",
     model: "./assets/gate.glb",
     position: [-15, 0.1, -22],
@@ -208,7 +208,7 @@ export const environmentConfig = [
     scale: [85, 60, 50],
   },
   {
-    id: "gate",
+    id: "gate13",
     name: "Gate",
     model: "./assets/gate.glb",
     position: [-29, 0.1, -22],
@@ -216,7 +216,7 @@ export const environmentConfig = [
     scale: [68, 60, 50],
   },
   {
-    id: "gate",
+    id: "gate14",
     name: "Gate",
     model: "./assets/gate.glb",
     position: [-29, 0.1, -5],
@@ -224,7 +224,7 @@ export const environmentConfig = [
     scale: [68, 60, 50],
   },
   {
-    id: "gate",
+    id: "gate15",
     name: "Gate",
     model: "./assets/gate.glb",
     position: [-29, 0.1, 15],
@@ -232,7 +232,7 @@ export const environmentConfig = [
     scale: [68, 60, 50],
   },
   {
-    id: "gate",
+    id: "gate16",
     name: "Gate",
     model: "./assets/gate.glb",
     position: [26, 0.1, -22],
@@ -240,7 +240,7 @@ export const environmentConfig = [
     scale: [73, 60, 50],
   },
   {
-    id: "gate",
+    id: "gate17",
     name: "Gate",
     model: "./assets/gate.glb",
     position: [26, 0.1, -10],
@@ -248,7 +248,7 @@ export const environmentConfig = [
     scale: [73, 60, 50],
   },
   {
-    id: "gate",
+    id: "gate18",
     name: "Gate",
     model: "./assets/gate.glb",
     position: [26, 0.1, 3],
@@ -256,7 +256,7 @@ export const environmentConfig = [
     scale: [73, 60, 50],
   },
   {
-    id: "cave",
+    id: "cave65",
     name: "Cave",
     model: "./assets/cave.glb",
     position: [34, 0.1, 18],
@@ -272,7 +272,7 @@ export const environmentConfig = [
     scale: 0.005,
   },
   {
-    id: "tree2",
+    id: "tree25",
     name: "Tree2",
     model: "./assets/tree2.glb",
     position: [9, 0.1, -34],
@@ -288,7 +288,7 @@ export const environmentConfig = [
     scale: 0.01,
   },
   {
-    id: "tree3",
+    id: "tree312",
     name: "Red tree",
     model: "./assets/tree4.glb",
     position: [-10, 0.1, -34],
@@ -297,7 +297,7 @@ export const environmentConfig = [
   },
   
   {
-    id: "tree5",
+    id: "tree52",
     name: "bamboo tree",
     model: "./assets/tree5.glb",
     position: [-20, 0.1, 12],
@@ -305,7 +305,7 @@ export const environmentConfig = [
     scale: 0.04,
   },
   {
-    id: "tree5",
+    id: "tree512",
     name: "bamboo tree",
     model: "./assets/tree5.glb",
     position: [-20, 0.1, -2],
@@ -313,7 +313,7 @@ export const environmentConfig = [
     scale: 0.04,
   },
   {
-    id: "tree5",
+    id: "tree588",
     name: "bamboo tree",
     model: "./assets/tree5.glb",
     position: [-28, 0.1, 8],
@@ -329,7 +329,7 @@ export const environmentConfig = [
     scale: 30,
   },
   {
-    id: "tree7",
+    id: "tree7757",
     name: "neem tree",
     model: "./assets/tree7.glb",
     position: [1, -3, 10],
@@ -337,7 +337,7 @@ export const environmentConfig = [
     scale: 1,
   },
   {
-    id: "tree7",
+    id: "tree71",
     name: "bananatree",
     model: "./assets/bananatree.glb",
     position: [20, 0.1, -26],
@@ -361,10 +361,26 @@ export const environmentConfig = [
     scale: [0.025, 0.02, 0.05],
   },
   {
-    id: "water",
+    id: "water1",
     name: "water",
     model: "./assets/water.glb",
     position: [20, 1, -57],
+    rotation: [0, -Math.PI / 2, 0],
+    scale: [0.025, 0.02, 0.05],
+  },
+  {
+    id: "water2",
+    name: "water",
+    model: "./assets/water.glb",
+    position: [20, 0, -54],
+    rotation: [0, -Math.PI / 2, 0],
+    scale: [0.025, 0.02, 0.05],
+  },
+  {
+    id: "water3",
+    name: "water",
+    model: "./assets/water.glb",
+    position: [-15, 0, -54],
     rotation: [0, -Math.PI / 2, 0],
     scale: [0.025, 0.02, 0.05],
   },
@@ -401,7 +417,7 @@ export const environmentConfig = [
     scale: [1, 1,0.5],
   },
   {
-    id: "cave",
+    id: "cave1",
     name: "Cave",
     model: "./assets/cave.glb",
     position: [-24, 0.1, 26],
@@ -409,7 +425,7 @@ export const environmentConfig = [
     scale: [1, 1,0.5],
   },
   {
-    id: "tree2",
+    id: "tree211",
     name: "Tree2",
     model: "./assets/tree2.glb",
     position: [-23, 0.1, 20],

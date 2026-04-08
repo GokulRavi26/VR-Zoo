@@ -268,7 +268,7 @@ export const animals = [
     model: "./assets/hippo.glb",
     image: "./assets/hippo.jpg",
     sound: { en: "./assets/hippo.mp3", ta: "./assets/hippo.mp3" },
-    position: [34, 1, -50],
+    position: [34, 1.9, -50],
     rotation: [0, -Math.PI / 4, 0],
     scale: 1,
 
@@ -755,7 +755,7 @@ export const animals = [
     image: "./assets/bird.jpg",
     sound: { en: "./assets/bird.mp3", ta: "./assets/bird.mp3" },
 
-    position: [-20, 0.3, -10],
+    position: [-20, -0.5, -10.5],
     rotation: [0, -Math.PI / 0.5, 0],
     scale: 0.1,
 
